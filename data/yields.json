@@ -1,0 +1,24 @@
+[
+  {
+    "asset": {
+      "name": "aUSDC",
+      "address": "0x724dc807b04555b71ed48a6896b6f41593b8c637",
+      "decimals": 6
+    },
+    "chain": {
+      "name": "Arbitrum",
+      "chainId": 42161
+    },
+    "protocol": "PENDLEV2",
+    "apy": {
+      "value": 0.423,
+      "type": "fixed",
+      "maturityTimestamp": 1724114387
+    },
+    "tvl": 355000,
+    "type": "Stables",
+    "risk": 7,
+    "contractAddress": "0xba4a858d664ddb052158168db04afa3cff5cfcc8",
+    "description": "aUSDC is a stablecoin pegged to the US Dollar and is issued by Aave. It is an interest-bearing stablecoin that is pegged to the US Dollar."
+  }
+]
