@@ -31,7 +31,9 @@ jobs:
         run: |
           git config --global user.name 'github-actions'
           git config --global user.email 'github-actions@github.com'
-          git commit -m 'Updated update.txt with new timestamp'
+          git add data/lastUpdate.json
+          git add data/yields.json
+          git commit -m 'Updated yields.json and lastUpdate.json'
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
