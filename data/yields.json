@@ -11,7 +11,7 @@
     },
     "protocol": "PENDLEV2",
     "apy": {
-      "value": 0.09361815952155128,
+      "value": 0.1131924647767466,
       "type": "fixed",
       "maturityTimestamp": 1724114387,
       "history": [
@@ -293,11 +293,11 @@
         },
         {
           "timestamp": "2024-05-21T00:00:00.000Z",
-          "apy": 0.09361815952155128
+          "apy": 0.1131924647767466
         }
       ]
     },
-    "tvl": 4413839.243345911,
+    "tvl": 4412794.285934778,
     "type": "Stables",
     "risk": 7,
     "contractAddress": "0xba4a858d664ddb052158168db04afa3cff5cfcc8",
