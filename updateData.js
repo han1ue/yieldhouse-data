@@ -4,7 +4,7 @@ import path from "path";
 import { adapterRegistry } from "./adapters/adapterRegistry.js";
 
 const dataPath = "./data";
-const yieldsFiles = ["yields.json", "yieldsTestnet.json"];
+const yieldsFile = "yields.json";
 const lastUpdateFile = "lastUpdate.json";
 
 async function updateYields(fileName) {
@@ -38,9 +38,7 @@ function updateLastUpdateFile() {
   fs.writeFileSync(filePath, JSON.stringify(lastUpdate, null, 2));
 }
 
-for (const fileName of yieldsFiles) {
-  await updateYields(fileName);
-}
+await updateYields(yieldsFile);
 
 updateLastUpdateFile();
 
