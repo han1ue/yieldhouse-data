@@ -7,15 +7,18 @@ const dataPath = "./data";
 const yieldsFiles = ["yields.json", "yieldsTestnet.json"];
 const lastUpdateFile = "lastUpdate.json";
 
-function updateYields(fileName) {
+async function updateYields(fileName) {
   const filePath = path.join(dataPath, fileName);
   const yields = JSON.parse(fs.readFileSync(filePath, "utf8"));
 
-  for (let yieldData of yields) {
-    const protocolName = yieldData.protocol.toUpperCase();
+  for (let i = 0; i < yields.length; i++) {
+    const yieldData = yields[i];
+    const protocolName = yieldData.protocol.toLowerCase();
     const adapter = adapterRegistry[protocolName];
+
     if (adapter && typeof adapter.updateYield === "function") {
-      yieldData = adapter.updateYield(yieldData);
+      yields[i] = await adapter.updateYield(yieldData);
+      console.log(" yields[i]", yields[i]);
     }
   }
 
@@ -36,7 +39,7 @@ function updateLastUpdateFile() {
 }
 
 for (const fileName of yieldsFiles) {
-  updateYields(fileName);
+  await updateYields(fileName);
 }
 
 updateLastUpdateFile();
