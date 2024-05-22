@@ -11,7 +11,7 @@
     },
     "protocol": "PENDLEV2",
     "apy": {
-      "value": 0.10607431253446764,
+      "value": 0.1060743125275363,
       "type": "fixed",
       "maturityTimestamp": 1724114387,
       "history": [
@@ -297,11 +297,11 @@
         },
         {
           "timestamp": "2024-05-22T00:00:00.000Z",
-          "apy": 0.10607431253446764
+          "apy": 0.1060743125275363
         }
       ]
     },
-    "tvl": 4417046.912671956,
+    "tvl": 4417055.400539195,
     "type": "Stables",
     "risk": 4,
     "contractAddress": "0xba4a858d664ddb052158168db04afa3cff5cfcc8",
@@ -319,7 +319,7 @@
     },
     "protocol": "AAVEV3",
     "apy": {
-      "value": "0.22275864484750262478",
+      "value": "0.22260046374808042741",
       "type": "variable",
       "history": [
         {
@@ -688,7 +688,7 @@
         }
       ]
     },
-    "tvl": "196549809.6805768053162",
+    "tvl": "196559228.86316540780385",
     "type": "Stables",
     "risk": 3,
     "contractAddress": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
@@ -706,7 +706,7 @@
     },
     "protocol": "AAVEV3",
     "apy": {
-      "value": "0.11228541404960703359",
+      "value": "0.10933969276083599684",
       "type": "variable",
       "history": [
         {
@@ -1071,11 +1071,11 @@
         },
         {
           "timestamp": "2024-04-22T00:00:00.000Z",
-          "apy": 0.09643436767058113
+          "apy": 0.09008451029706502
         }
       ]
     },
-    "tvl": "50817592.32624601060499",
+    "tvl": "50855313.08444094073424",
     "type": "Stables",
     "risk": 4,
     "contractAddress": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
