@@ -1,9 +1,13 @@
-import { AaveV3Ethereum, AaveV3Sepolia } from "@bgd-labs/aave-address-book"; // import specific pool
+import {
+  AaveV3Ethereum,
+  AaveV3Sepolia,
+  AaveV3Arbitrum,
+} from "@bgd-labs/aave-address-book"; // import specific pool
 
 const aaveApiServer = "https://aave-api-v2.aave.com";
 
 function getAddressBook(chainId) {
-  const addressBooks = [AaveV3Ethereum, AaveV3Sepolia];
+  const addressBooks = [AaveV3Ethereum, AaveV3Sepolia, AaveV3Arbitrum];
   return addressBooks.find((addressBook) => addressBook.CHAIN_ID === chainId);
 }
 
@@ -41,17 +45,15 @@ export async function updateYield(yieldData) {
     }
 
     const marketsData = await marketsDataResponse.json();
-    console.log("Markets Data:", marketsData);
+    const reserveId =
+      chain.chainId +
+      "-" +
+      contractAddress.toLowerCase() +
+      "-" +
+      addressBook.POOL_ADDRESSES_PROVIDER.toLowerCase();
     const market = marketsData.reserves.find(
-      (reserve) =>
-        reserve.id ==
-        chain.chainId +
-          "-" +
-          contractAddress +
-          "-" +
-          addressBook.POOL_ADDRESSES_PROVIDER
+      (reserve) => reserve.id == reserveId
     );
-    console.log("Market:", market);
 
     const ratesHistoryResponse = await fetch(
       aaveApiServer +
@@ -72,10 +74,22 @@ export async function updateYield(yieldData) {
     }
 
     const ratesHistoryData = await ratesHistoryResponse.json();
-    console.log("Rates History Data:", ratesHistoryData);
 
     // Update yieldData with fetched data
-    yieldData.apy = market.liquidityRate;
+    yieldData.apy.value = market.liquidityRate;
+    yieldData.apy.history = ratesHistoryData.map((result) => {
+      const date = new Date(
+        result.x.year,
+        result.x.month - 1,
+        result.x.date,
+        result.x.hours
+      );
+
+      return {
+        timestamp: date.toISOString(),
+        apy: result.liquidityRate_avg,
+      };
+    });
     yieldData.tvl = market.totalLiquidityUSD;
 
     return yieldData; // Return the updated yield data

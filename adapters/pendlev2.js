@@ -20,7 +20,6 @@ export async function updateYield(yieldData) {
     }
 
     const responseData = await response.json();
-    console.log("Market Data:", responseData);
 
     const threeMonthsAgo = new Date();
     threeMonthsAgo.setUTCMonth(threeMonthsAgo.getUTCMonth() - 3);
@@ -32,11 +31,6 @@ export async function updateYield(yieldData) {
       timestamp_start: timestampStart,
       timestamp_end: timestampEnd,
     });
-
-    console.log(
-      "url",
-      apiServer + apyHistoryEndpoint + "?" + apyHistoryParams.toString()
-    );
 
     // Fetch historical APY data
     const apyHistoryResponse = await fetch(
@@ -55,7 +49,6 @@ export async function updateYield(yieldData) {
     }
 
     const apyHistoryData = await apyHistoryResponse.json();
-    console.log("APY History Data:", apyHistoryData);
 
     // Update the yield data with the fetched market data
     yieldData.tvl = responseData.liquidity.usd; // Update TVL with USD liquidity
@@ -66,8 +59,6 @@ export async function updateYield(yieldData) {
       timestamp: result.timestamp,
       apy: result.impliedApy,
     }));
-
-    console.log("yieldData.historicalApy", yieldData.historicalApy);
 
     return yieldData; // Return the updated yield data
   } catch (error) {
