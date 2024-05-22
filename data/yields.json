@@ -1080,5 +1080,26 @@
     "risk": 4,
     "contractAddress": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
     "description": ""
+  },
+  {
+    "asset": {
+      "name": "USDC",
+      "address": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+      "decimals": 6
+    },
+    "chain": {
+      "name": "Base",
+      "chainId": 8453
+    },
+    "protocol": "AAVEV3",
+    "apy": {
+      "value": "0.11228541404960703359",
+      "type": "variable"
+    },
+    "tvl": "50817592.32624601060499",
+    "type": "Stables",
+    "risk": 4,
+    "contractAddress": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+    "description": ""
   }
 ]
