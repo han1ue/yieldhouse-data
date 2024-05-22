@@ -2,12 +2,18 @@ import {
   AaveV3Ethereum,
   AaveV3Sepolia,
   AaveV3Arbitrum,
+  AaveV3Base,
 } from "@bgd-labs/aave-address-book"; // import specific pool
 
 const aaveApiServer = "https://aave-api-v2.aave.com";
 
 function getAddressBook(chainId) {
-  const addressBooks = [AaveV3Ethereum, AaveV3Sepolia, AaveV3Arbitrum];
+  const addressBooks = [
+    AaveV3Ethereum,
+    AaveV3Sepolia,
+    AaveV3Arbitrum,
+    AaveV3Base,
+  ];
   return addressBooks.find((addressBook) => addressBook.CHAIN_ID === chainId);
 }
 
