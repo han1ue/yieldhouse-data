@@ -56,7 +56,7 @@ export async function updateYield(yieldData) {
 
     // Add historical APY data to yield data
     yieldData.apy.history = apyHistoryData.results.map((result) => ({
-      timestamp: result.timestamp,
+      timestamp: Math.floor(new Date(result.timestamp).getTime() / 1000),
       apy: result.impliedApy,
     }));
 

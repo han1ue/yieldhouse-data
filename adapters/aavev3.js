@@ -92,7 +92,7 @@ export async function updateYield(yieldData) {
       );
 
       return {
-        timestamp: date.toISOString(),
+        timestamp: Math.floor(date.getTime() / 1000),
         apy: result.liquidityRate_avg,
       };
     });
