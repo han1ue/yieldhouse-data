@@ -312,7 +312,7 @@
   },
   {
     "asset": {
-      "name": "eETH",
+      "name": "weETH",
       "address": "0x35751007a407ca6feffe80b3cb397736d2cf4dbe",
       "decimals": 18
     },
@@ -538,7 +538,7 @@
   },
   {
     "asset": {
-      "name": "eETH",
+      "name": "weETH",
       "address": "0x35751007a407ca6feffe80b3cb397736d2cf4dbe",
       "decimals": 18
     },
