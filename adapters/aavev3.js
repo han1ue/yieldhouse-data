@@ -3,7 +3,7 @@ import {
   AaveV3Sepolia,
   AaveV3Arbitrum,
   AaveV3Base,
-} from "@bgd-labs/aave-address-book"; // import specific pool
+} from "@bgd-labs/aave-address-book";
 
 const aaveApiServer = "https://aave-api-v2.aave.com";
 
