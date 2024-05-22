@@ -1,4 +1,7 @@
 {
-  "timestamp": 1716397361,
-  "protocols": ["aavev3", "pendlev2"]
+  "timestamp": 1716397414,
+  "protocols": [
+    "aavev3",
+    "pendlev2"
+  ]
 }
