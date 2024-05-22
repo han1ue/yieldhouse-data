@@ -606,7 +606,7 @@
     },
     "chain": {
       "name": "Ethereum",
-      "chainId": 42161
+      "chainId": 1
     },
     "protocol": "PENDLEV2",
     "apy": {
