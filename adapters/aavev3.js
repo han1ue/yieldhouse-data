@@ -6,6 +6,7 @@ import {
 } from "@bgd-labs/aave-address-book";
 
 const aaveApiServer = "https://aave-api-v2.aave.com";
+const threeMonthsInSecs = 60 * 60 * 24 * 30 * 3;
 
 function getAddressBook(chainId) {
   const addressBooks = [
@@ -21,15 +22,13 @@ export async function updateYield(yieldData) {
   const { chain, contractAddress } = yieldData;
   const addressBook = getAddressBook(chain.chainId);
   const marketsDataEndpoint = "/data/markets-data";
-  const ratesHistoryEndpoint = "/data/rates-history"; // Example parameters
-  const threeMonthsAgo = new Date();
-  threeMonthsAgo.setUTCMonth(threeMonthsAgo.getUTCMonth() - 3);
-  const timestampStart = Math.floor(threeMonthsAgo.getTime() / 1000);
+  const ratesHistoryEndpoint = "/data/rates-history"; // Example parameters;
+  const currentTimestamp = Math.floor(Date.now() / 1000); // Current Unix timestamp in seconds
 
   const ratesHistoryParams = new URLSearchParams({
     reserveId:
       contractAddress + addressBook.POOL_ADDRESSES_PROVIDER + chain.chainId,
-    from: timestampStart,
+    from: (currentTimestamp - threeMonthsInSecs).toString(),
     resolutionInHours: "24",
   });
 
