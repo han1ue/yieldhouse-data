@@ -11,7 +11,7 @@ async function updateYields(fileName) {
   const filePath = path.join(dataPath, fileName);
   const yields = JSON.parse(fs.readFileSync(filePath, "utf8"));
 
-  for (let i = 0; i < yields.length; i++) {
+  for (let i = 13; i < yields.length; i++) {
     const protocolName = yields[i].protocol.toLowerCase();
     const adapter = adapterRegistry[protocolName];
 

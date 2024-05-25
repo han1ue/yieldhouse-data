@@ -4560,7 +4560,365 @@
     "protocol": "Maker",
     "apy": {
       "value": 0.07999999746819175,
-      "type": "variable"
+      "type": "variable",
+      "history": [
+        {
+          "timestamp": 1706227200,
+          "apy": 0.08
+        },
+        {
+          "timestamp": 1706313600,
+          "apy": 0.08
+        },
+        {
+          "timestamp": 1706400000,
+          "apy": 0.08
+        },
+        {
+          "timestamp": 1706486400,
+          "apy": 0.08
+        },
+        {
+          "timestamp": 1706745600,
+          "apy": 0.08
+        },
+        {
+          "timestamp": 1706832000,
+          "apy": 0.08
+        },
+        {
+          "timestamp": 1706918400,
+          "apy": 0.08
+        },
+        {
+          "timestamp": 1707004800,
+          "apy": 0.08
+        },
+        {
+          "timestamp": 1707091200,
+          "apy": 0.08
+        },
+        {
+          "timestamp": 1707177600,
+          "apy": 0.08
+        },
+        {
+          "timestamp": 1707264000,
+          "apy": 0.08
+        },
+        {
+          "timestamp": 1707350400,
+          "apy": 0.08
+        },
+        {
+          "timestamp": 1707436800,
+          "apy": 0.08
+        },
+        {
+          "timestamp": 1707523200,
+          "apy": 0.08
+        },
+        {
+          "timestamp": 1707609600,
+          "apy": 0.08
+        },
+        {
+          "timestamp": 1707696000,
+          "apy": 0.08
+        },
+        {
+          "timestamp": 1707782400,
+          "apy": 0.08
+        },
+        {
+          "timestamp": 1707868800,
+          "apy": 0.08
+        },
+        {
+          "timestamp": 1707955200,
+          "apy": 0.08
+        },
+        {
+          "timestamp": 1708041600,
+          "apy": 0.08
+        },
+        {
+          "timestamp": 1708128000,
+          "apy": 0.08
+        },
+        {
+          "timestamp": 1708214400,
+          "apy": 0.08
+        },
+        {
+          "timestamp": 1708300800,
+          "apy": 0.08
+        },
+        {
+          "timestamp": 1708387200,
+          "apy": 0.08
+        },
+        {
+          "timestamp": 1708473600,
+          "apy": 0.08
+        },
+        {
+          "timestamp": 1708560000,
+          "apy": 0.08
+        },
+        {
+          "timestamp": 1708646400,
+          "apy": 0.08
+        },
+        {
+          "timestamp": 1708732800,
+          "apy": 0.08
+        },
+        {
+          "timestamp": 1708819200,
+          "apy": 0.08
+        },
+        {
+          "timestamp": 1708905600,
+          "apy": 0.08
+        },
+        {
+          "timestamp": 1708992000,
+          "apy": 0.08
+        },
+        {
+          "timestamp": 1709078400,
+          "apy": 0.08
+        },
+        {
+          "timestamp": 1709164800,
+          "apy": 0.08
+        },
+        {
+          "timestamp": 1709251200,
+          "apy": 0.08
+        },
+        {
+          "timestamp": 1709337600,
+          "apy": 0.08
+        },
+        {
+          "timestamp": 1709424000,
+          "apy": 0.08
+        },
+        {
+          "timestamp": 1709510400,
+          "apy": 0.08
+        },
+        {
+          "timestamp": 1709596800,
+          "apy": 0.08
+        },
+        {
+          "timestamp": 1709683200,
+          "apy": 0.08
+        },
+        {
+          "timestamp": 1709769600,
+          "apy": 0.08
+        },
+        {
+          "timestamp": 1709856000,
+          "apy": 0.08
+        },
+        {
+          "timestamp": 1709942400,
+          "apy": 0.08
+        },
+        {
+          "timestamp": 1710028800,
+          "apy": 0.08
+        },
+        {
+          "timestamp": 1710115200,
+          "apy": 0.08
+        },
+        {
+          "timestamp": 1710201600,
+          "apy": 0.08
+        },
+        {
+          "timestamp": 1710288000,
+          "apy": 0.08
+        },
+        {
+          "timestamp": 1710374400,
+          "apy": 0.08
+        },
+        {
+          "timestamp": 1710460800,
+          "apy": 0.08
+        },
+        {
+          "timestamp": 1710547200,
+          "apy": 0.08
+        },
+        {
+          "timestamp": 1710633600,
+          "apy": 0.08
+        },
+        {
+          "timestamp": 1710720000,
+          "apy": 0.08
+        },
+        {
+          "timestamp": 1710806400,
+          "apy": 0.08
+        },
+        {
+          "timestamp": 1710892800,
+          "apy": 0.08
+        },
+        {
+          "timestamp": 1710979200,
+          "apy": 0.08
+        },
+        {
+          "timestamp": 1711065600,
+          "apy": 0.08
+        },
+        {
+          "timestamp": 1711152000,
+          "apy": 0.08
+        },
+        {
+          "timestamp": 1711238400,
+          "apy": 0.08
+        },
+        {
+          "timestamp": 1711324800,
+          "apy": 0.08
+        },
+        {
+          "timestamp": 1711411200,
+          "apy": 0.08
+        },
+        {
+          "timestamp": 1711497600,
+          "apy": 0.08
+        },
+        {
+          "timestamp": 1711584000,
+          "apy": 0.08
+        },
+        {
+          "timestamp": 1711670400,
+          "apy": 0.08
+        },
+        {
+          "timestamp": 1711756800,
+          "apy": 0.08
+        },
+        {
+          "timestamp": 1711929600,
+          "apy": 0.08
+        },
+        {
+          "timestamp": 1712016000,
+          "apy": 0.08
+        },
+        {
+          "timestamp": 1712102400,
+          "apy": 0.08
+        },
+        {
+          "timestamp": 1712188800,
+          "apy": 0.08
+        },
+        {
+          "timestamp": 1712275200,
+          "apy": 0.08
+        },
+        {
+          "timestamp": 1712361600,
+          "apy": 0.08
+        },
+        {
+          "timestamp": 1712448000,
+          "apy": 0.08
+        },
+        {
+          "timestamp": 1712534400,
+          "apy": 0.08
+        },
+        {
+          "timestamp": 1712620800,
+          "apy": 0.08
+        },
+        {
+          "timestamp": 1712707200,
+          "apy": 0.08
+        },
+        {
+          "timestamp": 1712793600,
+          "apy": 0.08
+        },
+        {
+          "timestamp": 1712880000,
+          "apy": 0.08
+        },
+        {
+          "timestamp": 1712966400,
+          "apy": 0.08
+        },
+        {
+          "timestamp": 1713052800,
+          "apy": 0.08
+        },
+        {
+          "timestamp": 1713139200,
+          "apy": 0.08
+        },
+        {
+          "timestamp": 1713225600,
+          "apy": 0.08
+        },
+        {
+          "timestamp": 1713312000,
+          "apy": 0.08
+        },
+        {
+          "timestamp": 1713398400,
+          "apy": 0.08
+        },
+        {
+          "timestamp": 1713484800,
+          "apy": 0.08
+        },
+        {
+          "timestamp": 1713571200,
+          "apy": 0.08
+        },
+        {
+          "timestamp": 1713657600,
+          "apy": 0.08
+        },
+        {
+          "timestamp": 1713744000,
+          "apy": 0.08
+        },
+        {
+          "timestamp": 1713830400,
+          "apy": 0.08
+        },
+        {
+          "timestamp": 1713916800,
+          "apy": 0.08
+        },
+        {
+          "timestamp": 1714003200,
+          "apy": 0.08
+        },
+        {
+          "timestamp": 1716604828,
+          "apy": 0.07999999746819175
+        }
+      ]
     },
     "type": [
       "Stables"
@@ -4568,6 +4926,6 @@
     "risk": 2,
     "contractAddress": "0x373238337Bfe1146fb49989fc222523f83081dDb",
     "description": "DAI is a multi-collateral-backed stablecoin managed by MakerDAO that attempts to maintain a value of $1.00 USD. The .DSR is a special module in the MakerDAO smart contract system that allows DAI holders to receive a share of the revenue earned by MakerDAO. The yield is generated by depositing DAI in AAVE's lending markets and automatically accrued in your account.",
-    "tvl": "1766048394.153634762198299023"
+    "tvl": "1766196212.217963460961772088"
   }
 ]
