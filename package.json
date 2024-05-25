@@ -1,6 +1,7 @@
 {
   "type": "module",
   "dependencies": {
-    "@bgd-labs/aave-address-book": "^2.27.0"
+    "@bgd-labs/aave-address-book": "^2.27.0",
+    "viem": "^2.12.1"
   }
 }

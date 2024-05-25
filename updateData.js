@@ -11,13 +11,12 @@ async function updateYields(fileName) {
   const filePath = path.join(dataPath, fileName);
   const yields = JSON.parse(fs.readFileSync(filePath, "utf8"));
 
-  for (let i = 0; i < yields.length; i++) {
-    const yieldData = yields[i];
-    const protocolName = yieldData.protocol.toLowerCase();
+  for (let i = 13; i < yields.length; i++) {
+    const protocolName = yields[i].protocol.toLowerCase();
     const adapter = adapterRegistry[protocolName];
 
     if (adapter && typeof adapter.updateYield === "function") {
-      yields[i] = await adapter.updateYield(yieldData);
+      yields[i] = await adapter.updateYield(yields[i]);
       console.log(" yields[i]", yields[i]);
     }
   }
