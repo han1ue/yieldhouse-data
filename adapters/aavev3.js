@@ -85,7 +85,7 @@ export async function updateYield(yieldData) {
     yieldData.apy.history = ratesHistoryData.map((result) => {
       const date = new Date(
         result.x.year,
-        result.x.month - 1,
+        result.x.month,
         result.x.date,
         result.x.hours
       );
