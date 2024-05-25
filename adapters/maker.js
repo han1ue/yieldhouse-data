@@ -83,7 +83,7 @@ export async function updateYield(yieldData) {
     // Add the new APY value with the current timestamp
     yieldData.apy.history.push({
       timestamp: currentTimestamp,
-      apy: apy.toPrecision(4),
+      apy: Number(apy.toPrecision(4)),
     });
   }
 
