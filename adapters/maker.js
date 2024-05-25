@@ -38,8 +38,6 @@ export async function updateYield(yieldData) {
     args: [],
   });
 
-  console.log("dsrResponse", dsrResponse);
-
   const dsrPerSecond = Number(dsrResponse) / Number(RAY);
 
   // Calculate APY using floating point arithmetic
@@ -47,8 +45,29 @@ export async function updateYield(yieldData) {
 
   console.log("apy", apy);
 
-  // Convert BigInt to a more readable format if needed (e.g., as a string or a number)
-  yieldData.apy.value = apy; // or any other conversion logic
+  // Read the current DAI balance of the Maker Pot
+  const pieResponse = await publicClient.readContract({
+    abi: [
+      {
+        inputs: [],
+        name: "Pie",
+        outputs: [{ name: "", type: "uint256" }],
+        payable: false,
+        stateMutability: "view",
+        type: "function",
+      },
+    ],
+    address: MAKER_POT_ADDRESS,
+    method: "Pie",
+    args: [],
+  });
+
+  const tvl = formatUnits(pieResponse, 18);
+
+  console.log("tvl", tvl);
+
+  yieldData.tvl = tvl;
+  yieldData.apy.value = apy;
 
   return yieldData;
 }
