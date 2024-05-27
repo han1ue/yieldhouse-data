@@ -12,7 +12,7 @@
     },
     "protocol": "PENDLEV2",
     "apy": {
-      "value": 0.1386236420173863,
+      "value": 0.13862280919188152,
       "type": "fixed",
       "maturityTimestamp": 1719446400,
       "history": [
@@ -318,11 +318,11 @@
         },
         {
           "timestamp": 1716768000,
-          "apy": 0.1386236420173863
+          "apy": 0.13862280919188152
         }
       ]
     },
-    "tvl": 3845128.793989625,
+    "tvl": 3845198.9515769347,
     "type": [
       "Stables",
       "Lending"
@@ -344,7 +344,7 @@
     },
     "protocol": "PENDLEV2",
     "apy": {
-      "value": 0.23701741584654767,
+      "value": 0.23530053141485063,
       "type": "fixed",
       "maturityTimestamp": 1719446400,
       "history": [
@@ -566,11 +566,11 @@
         },
         {
           "timestamp": 1716768000,
-          "apy": 0.23701741584654767
+          "apy": 0.23530053141485063
         }
       ]
     },
-    "tvl": 41378199.52495131,
+    "tvl": 41164599.31960854,
     "type": [
       "LRT"
     ],
@@ -591,7 +591,7 @@
     },
     "protocol": "PENDLEV2",
     "apy": {
-      "value": 0.1586989159612402,
+      "value": 0.15834567252372111,
       "type": "fixed",
       "maturityTimestamp": 1727308800,
       "history": [
@@ -649,11 +649,11 @@
         },
         {
           "timestamp": 1716768000,
-          "apy": 0.1586989159612402
+          "apy": 0.15834567252372111
         }
       ]
     },
-    "tvl": 6073521.662339982,
+    "tvl": 6041800.078876171,
     "type": [
       "LRT"
     ],
@@ -674,7 +674,7 @@
     },
     "protocol": "PENDLEV2",
     "apy": {
-      "value": 0.04367308598947339,
+      "value": 0.043673085989871296,
       "type": "fixed",
       "maturityTimestamp": 1735214400,
       "history": [
@@ -1040,11 +1040,11 @@
         },
         {
           "timestamp": 1716768000,
-          "apy": 0.04367308598947339
+          "apy": 0.043673085989871296
         }
       ]
     },
-    "tvl": 3711615.2164418725,
+    "tvl": 3679402.589477759,
     "type": [
       "LST"
     ],
@@ -1065,7 +1065,7 @@
     },
     "protocol": "PENDLEV2",
     "apy": {
-      "value": 0.04045712252490663,
+      "value": 0.04045712252495637,
       "type": "fixed",
       "maturityTimestamp": 1766664000,
       "history": [
@@ -1431,11 +1431,11 @@
         },
         {
           "timestamp": 1716768000,
-          "apy": 0.04045712252490663
+          "apy": 0.04045712252495637
         }
       ]
     },
-    "tvl": 24929063.436592557,
+    "tvl": 24712706.108261816,
     "type": [
       "LST"
     ],
@@ -1456,7 +1456,7 @@
     },
     "protocol": "PENDLEV2",
     "apy": {
-      "value": 0.2386569228173565,
+      "value": 0.24330413947514118,
       "type": "fixed",
       "maturityTimestamp": 1719446400,
       "history": [
@@ -1822,11 +1822,11 @@
         },
         {
           "timestamp": 1716768000,
-          "apy": 0.2386569228173565
+          "apy": 0.24330413947514118
         }
       ]
     },
-    "tvl": 307242365.6098199,
+    "tvl": 305607705.6848731,
     "type": [
       "LRT"
     ],
@@ -1847,12 +1847,12 @@
     },
     "protocol": "AAVEV3",
     "apy": {
-      "value": "0.14132079200573106759",
+      "value": "0.11895676252612877608",
       "type": "variable",
       "history": [
         {
           "timestamp": 1708992000,
-          "apy": 0.0960941725274812
+          "apy": 0.09769618610236792
         },
         {
           "timestamp": 1709078400,
@@ -2212,11 +2212,11 @@
         },
         {
           "timestamp": 1716768000,
-          "apy": 0.1607095481517389
+          "apy": 0.15883612964446675
         }
       ]
     },
-    "tvl": "230896835.0806100809135",
+    "tvl": "231856278.31757792961148",
     "type": [
       "Stables",
       "Lending"
@@ -2238,12 +2238,12 @@
     },
     "protocol": "AAVEV3",
     "apy": {
-      "value": "0.14888110500053511447",
+      "value": "0.08277857363217434986",
       "type": "variable",
       "history": [
         {
           "timestamp": 1708992000,
-          "apy": 0.10675599408771173
+          "apy": 0.10974146521703683
         },
         {
           "timestamp": 1709078400,
@@ -2603,11 +2603,11 @@
         },
         {
           "timestamp": 1716768000,
-          "apy": 0.08853821505260602
+          "apy": 0.0890861858201023
         }
       ]
     },
-    "tvl": "58335803.00181551998",
+    "tvl": "59173846.0242420247",
     "type": [
       "Stables",
       "Lending"
@@ -2629,12 +2629,12 @@
     },
     "protocol": "AAVEV3",
     "apy": {
-      "value": "0.06220807744987024348",
+      "value": "0.06054891205874914124",
       "type": "variable",
       "history": [
         {
           "timestamp": 1708992000,
-          "apy": 0.04381962119611662
+          "apy": 0.04386552205228016
         },
         {
           "timestamp": 1709078400,
@@ -2994,11 +2994,11 @@
         },
         {
           "timestamp": 1716768000,
-          "apy": 0.057248325376720643
+          "apy": 0.05691312946367807
         }
       ]
     },
-    "tvl": "28578363.8662813116517",
+    "tvl": "28900834.86789027874456",
     "type": [
       "Stables",
       "Lending"
@@ -3020,12 +3020,12 @@
     },
     "protocol": "AAVEV3",
     "apy": {
-      "value": "0.01373541765052314022",
+      "value": "0.01371895413177085754",
       "type": "variable",
       "history": [
         {
           "timestamp": 1708992000,
-          "apy": 0.019539462536729963
+          "apy": 0.018671549262529914
         },
         {
           "timestamp": 1709078400,
@@ -3385,11 +3385,11 @@
         },
         {
           "timestamp": 1716768000,
-          "apy": 0.012077992347804847
+          "apy": 0.012052883284511885
         }
       ]
     },
-    "tvl": "3140739562.95582485981988017122",
+    "tvl": "3132059475.91848652733269189414",
     "type": [
       "Lending"
     ],
@@ -3410,12 +3410,12 @@
     },
     "protocol": "AAVEV3",
     "apy": {
-      "value": "0.07171152030912626318",
+      "value": "0.07157198280545659794",
       "type": "variable",
       "history": [
         {
           "timestamp": 1708992000,
-          "apy": 0.07561400443038081
+          "apy": 0.07885521641736228
         },
         {
           "timestamp": 1709078400,
@@ -3775,11 +3775,11 @@
         },
         {
           "timestamp": 1716768000,
-          "apy": 0.062100003258489155
+          "apy": 0.06365169281057118
         }
       ]
     },
-    "tvl": "1365173647.6212645710319",
+    "tvl": "1366829591.1947322215346",
     "type": [
       "Lending",
       "Stables"
@@ -3801,12 +3801,12 @@
     },
     "protocol": "AAVEV3",
     "apy": {
-      "value": "0.06808038096899875124",
+      "value": "0.06611765904664213941",
       "type": "variable",
       "history": [
         {
           "timestamp": 1708992000,
-          "apy": 0.07837130619039713
+          "apy": 0.08122108808310503
         },
         {
           "timestamp": 1709078400,
@@ -4166,11 +4166,11 @@
         },
         {
           "timestamp": 1716768000,
-          "apy": 0.05769566012303365
+          "apy": 0.05775875847463588
         }
       ]
     },
-    "tvl": "1264903388.03952654967944",
+    "tvl": "1283452129.0256651905178",
     "type": [
       "Lending",
       "Stables"
@@ -4192,12 +4192,12 @@
     },
     "protocol": "AAVEV3",
     "apy": {
-      "value": "0.19977104628357360822",
+      "value": "0.19381972595800147239",
       "type": "variable",
       "history": [
         {
           "timestamp": 1708992000,
-          "apy": 0.13335112234460297
+          "apy": 0.11212789548682912
         },
         {
           "timestamp": 1709078400,
@@ -4557,11 +4557,11 @@
         },
         {
           "timestamp": 1716768000,
-          "apy": 0.0880306577539419
+          "apy": 0.09180152150196123
         }
       ]
     },
-    "tvl": "11290021.06743146213634029074",
+    "tvl": "11296267.52907392896968654925",
     "type": [
       "Stables",
       "Lending"
@@ -4958,7 +4958,7 @@
     "risk": 2,
     "contractAddress": "0x373238337Bfe1146fb49989fc222523f83081dDb",
     "description": "DAI is a multi-collateral-backed stablecoin managed by MakerDAO that attempts to maintain a value of $1.00 USD. The DSR is a special module in the MakerDAO smart contract system that allows DAI holders to receive a share of the revenue earned by MakerDAO. The yield is generated by depositing DAI in the DSR and automatically accrued in your account.",
-    "tvl": "1769543951.024779809257362033"
+    "tvl": "1770015594.253566288807996966"
   },
   {
     "id": 14,
@@ -4975,7 +4975,7 @@
     "apy": {
       "type": "fixed",
       "maturityTimestamp": 1724889600,
-      "value": 0.887795000298903,
+      "value": 0.8877967869865033,
       "history": [
         {
           "timestamp": 1712966400,
@@ -5155,7 +5155,7 @@
         },
         {
           "timestamp": 1716768000,
-          "apy": 0.887795000298903
+          "apy": 0.8877967869865033
         }
       ]
     },
@@ -5165,7 +5165,7 @@
       "Governance"
     ],
     "description": "ENA is the governance token for Ethena, a DeFi protocol focused on creating a synthetic dollar (USDe). By depositing ENA into Pendle, users can earn a fixed APY on their ENA. The yield is generated by forfeiting the right to claim ENA's season 2 points. Withdrawing will become available after the maturity date. If you want to withdraw before the maturity date you can do so in Pendle's web app.",
-    "tvl": 10436360.892059043
+    "tvl": 10373462.230191166
   },
   {
     "id": 15,
@@ -5182,7 +5182,7 @@
     "apy": {
       "type": "fixed",
       "maturityTimestamp": 1721865600,
-      "value": 0.35676984590438887,
+      "value": 0.3567698459582891,
       "history": [
         {
           "timestamp": 1712016000,
@@ -5406,7 +5406,7 @@
         },
         {
           "timestamp": 1716768000,
-          "apy": 0.35676984590438887
+          "apy": 0.3567698459582891
         }
       ]
     },
@@ -5416,6 +5416,6 @@
       "Stables"
     ],
     "description": "USDe is a delta-neutral synthetic dollar created by Ethena Labs. By depositing USDe into Pendle, users can earn a fixed APY on their USDe. The yield is generated by forfeiting the right to claim USDe's season 2 points. Withdrawing will become available after the maturity date. If you want to withdraw before the maturity date you can do so in Pendle's web app.",
-    "tvl": 52592556.61567417
+    "tvl": 52588968.33069401
   }
 ]
