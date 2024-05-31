@@ -12,6 +12,7 @@ import { mainnet } from "viem/chains";
 import { LidoSDK } from "@lidofinance/lido-ethereum-sdk";
 
 const STETH_ADDRESS = "0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84";
+const ETH_PRICE_ORACLE_ADDRESS = "0x5f4eC3Df9cbd43714FE2740f5E3616155c5b8419";
 const SECONDS_IN_DAY = 86400;
 
 export async function updateYield(yieldData) {
@@ -44,8 +45,28 @@ export async function updateYield(yieldData) {
     args: [],
   });
 
+  const ethPriceResponse = await publicClient.readContract({
+    abi: [
+      {
+        inputs: [],
+        name: "latestAnswer",
+        outputs: [
+          {
+            internalType: "int256",
+            name: "",
+            type: "int256",
+          },
+        ],
+        stateMutability: "view",
+        type: "function",
+      },
+    ],
+    address: ETH_PRICE_ORACLE_ADDRESS,
+    method: "latestAnswer",
+  });
+
   const apy = (await lidoSDK.statistics.apr.getLastApr()) / 100;
-  const tvl = formatUnits(tvlResponse, 18);
+  const tvl = formatUnits(tvlResponse, 18) * formatUnits(ethPriceResponse, 8);
 
   yieldData.tvl = tvl;
   yieldData.apy.value = apy;
