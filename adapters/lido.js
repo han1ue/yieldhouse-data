@@ -9,20 +9,15 @@ import {
   maxUint256,
 } from "viem";
 import { mainnet } from "viem/chains";
-import {
-  LidoSDK,
-  LidoSDKCore,
-  StakeStageCallback,
-  TransactionCallbackStage,
-  SDKError,
-} from "@lidofinance/lido-ethereum-sdk";
+import { LidoSDK } from "@lidofinance/lido-ethereum-sdk";
 
 const STETH_ADDRESS = "0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84";
+const SECONDS_IN_DAY = 86400;
 
 export async function updateYield(yieldData) {
   // Read the current APY from the Lido SDK
   const lidoSDK = new LidoSDK({
-    rpcUrls: "https://eth.llamarpc.com",
+    rpcUrls: ["https://gateway.tenderly.co/public/mainnet"],
     chainId: 1,
   });
 
@@ -49,7 +44,7 @@ export async function updateYield(yieldData) {
     args: [],
   });
 
-  const apy = await lidoSDK.statistics.apr.getLastApr();
+  const apy = (await lidoSDK.statistics.apr.getLastApr()) / 100;
   const tvl = formatUnits(tvlResponse, 18);
 
   yieldData.tvl = tvl;
@@ -57,6 +52,9 @@ export async function updateYield(yieldData) {
 
   // UPdate apy history with the new value
   const currentTimestamp = Math.floor(Date.now() / 1000); // Current Unix timestamp in seconds
+
+  console.log("apy", apy);
+  console.log("currentTimestamp", currentTimestamp);
 
   // Check if 24 hours (86400 seconds) have passed since the latest timestamp in history
   let latestTimestamp =
