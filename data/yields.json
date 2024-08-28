@@ -307,7 +307,7 @@
     },
     "protocol": "PENDLEV2",
     "apy": {
-      "value": 0.07096624887497072,
+      "value": 0.07083152538525939,
       "type": "fixed",
       "maturityTimestamp": 1727308800,
       "history": [
@@ -681,11 +681,11 @@
         },
         {
           "timestamp": 1724803200,
-          "apy": 0.07096624887497072
+          "apy": 0.07083152538525939
         }
       ]
     },
-    "tvl": 26382575.256273672,
+    "tvl": 27021590.694677453,
     "type": [
       "LRT"
     ],
@@ -706,7 +706,7 @@
     },
     "protocol": "PENDLEV2",
     "apy": {
-      "value": 0.0435731333123317,
+      "value": 0.04356958171128289,
       "type": "fixed",
       "maturityTimestamp": 1735214400,
       "history": [
@@ -1080,11 +1080,11 @@
         },
         {
           "timestamp": 1724803200,
-          "apy": 0.0435731333123317
+          "apy": 0.04356958171128289
         }
       ]
     },
-    "tvl": 1990998.5712850154,
+    "tvl": 2039651.2452238319,
     "type": [
       "LST"
     ],
@@ -1105,7 +1105,7 @@
     },
     "protocol": "PENDLEV2",
     "apy": {
-      "value": 0.03344143693167401,
+      "value": 0.03335728381671488,
       "type": "fixed",
       "maturityTimestamp": 1766664000,
       "history": [
@@ -1479,11 +1479,11 @@
         },
         {
           "timestamp": 1724803200,
-          "apy": 0.03344143693167401
+          "apy": 0.03335728381671488
         }
       ]
     },
-    "tvl": 22492660.337826785,
+    "tvl": 23129169.668125737,
     "type": [
       "LST"
     ],
@@ -1660,7 +1660,7 @@
       "history": [
         {
           "timestamp": 1717027200,
-          "apy": 0.10365792214043776
+          "apy": 0.11468061225405457
         },
         {
           "timestamp": 1717113600,
@@ -2020,7 +2020,7 @@
         },
         {
           "timestamp": 1724803200,
-          "apy": 0.04319834861037152
+          "apy": 0.04316798632706813
         }
       ]
     },
@@ -2051,7 +2051,7 @@
       "history": [
         {
           "timestamp": 1717027200,
-          "apy": 0.07980899798128979
+          "apy": 0.07107504699940002
         },
         {
           "timestamp": 1717113600,
@@ -2411,7 +2411,7 @@
         },
         {
           "timestamp": 1724803200,
-          "apy": 0.04386571682798102
+          "apy": 0.04480430279866846
         }
       ]
     },
@@ -2442,7 +2442,7 @@
       "history": [
         {
           "timestamp": 1717027200,
-          "apy": 0.12303485007896499
+          "apy": 0.1107464078484035
         },
         {
           "timestamp": 1717113600,
@@ -2802,7 +2802,7 @@
         },
         {
           "timestamp": 1724803200,
-          "apy": 0.04582834508844394
+          "apy": 0.05096366764252523
         }
       ]
     },
@@ -2833,7 +2833,7 @@
       "history": [
         {
           "timestamp": 1717027200,
-          "apy": 0.014491586781681488
+          "apy": 0.01418808858769991
         },
         {
           "timestamp": 1717113600,
@@ -3193,7 +3193,7 @@
         },
         {
           "timestamp": 1724803200,
-          "apy": 0.018212501020129286
+          "apy": 0.01847648937669082
         }
       ]
     },
@@ -3223,7 +3223,7 @@
       "history": [
         {
           "timestamp": 1717027200,
-          "apy": 0.0775595650887145
+          "apy": 0.08397317604680461
         },
         {
           "timestamp": 1717113600,
@@ -3583,7 +3583,7 @@
         },
         {
           "timestamp": 1724803200,
-          "apy": 0.042041713275409974
+          "apy": 0.04128361092980661
         }
       ]
     },
@@ -3614,7 +3614,7 @@
       "history": [
         {
           "timestamp": 1717027200,
-          "apy": 0.05966372374253095
+          "apy": 0.05216480339800257
         },
         {
           "timestamp": 1717113600,
@@ -3974,7 +3974,7 @@
         },
         {
           "timestamp": 1724803200,
-          "apy": 0.03458187303757326
+          "apy": 0.035594219486582354
         }
       ]
     },
@@ -4005,7 +4005,7 @@
       "history": [
         {
           "timestamp": 1717027200,
-          "apy": 0.07765715144615841
+          "apy": 0.07429362362067385
         },
         {
           "timestamp": 1717113600,
@@ -4365,7 +4365,7 @@
         },
         {
           "timestamp": 1724803200,
-          "apy": 0.029153925450781434
+          "apy": 0.03295342412568164
         }
       ]
     },
@@ -4394,10 +4394,6 @@
       "value": 0.0599999976112906,
       "type": "variable",
       "history": [
-        {
-          "timestamp": 1715904000,
-          "apy": 0.08
-        },
         {
           "timestamp": 1715990400,
           "apy": 0.08
@@ -4757,6 +4753,10 @@
         {
           "timestamp": 1724761429,
           "apy": 0.06
+        },
+        {
+          "timestamp": 1724847908,
+          "apy": 0.06
         }
       ]
     },
@@ -4766,7 +4766,7 @@
     "risk": 2,
     "contractAddress": "0x373238337Bfe1146fb49989fc222523f83081dDb",
     "description": "DAI is a multi-collateral-backed stablecoin managed by MakerDAO that attempts to maintain a value of $1.00 USD. The DSR is a special module in the MakerDAO smart contract system that allows DAI holders to receive a share of the revenue earned by MakerDAO. The yield is generated by depositing DAI in the DSR and automatically accrued in your account.",
-    "tvl": "1876735156.298560727328959451"
+    "tvl": "1872823897.43707587536824647"
   },
   {
     "id": 14,
@@ -4783,7 +4783,7 @@
     "apy": {
       "type": "fixed",
       "maturityTimestamp": 1724889600,
-      "value": 1.0168682723505116,
+      "value": 1.6325499625545619,
       "history": [
         {
           "timestamp": 1716854400,
@@ -5155,7 +5155,7 @@
         },
         {
           "timestamp": 1724803200,
-          "apy": 1.0168682723505116
+          "apy": 1.6325499625545619
         }
       ]
     },
@@ -5165,7 +5165,7 @@
       "Governance"
     ],
     "description": "ENA is the governance token for Ethena, a DeFi protocol focused on creating a synthetic dollar (USDe). By depositing ENA into Pendle, users can earn a fixed APY on their ENA. The yield is generated by forfeiting the right to claim ENA's season 2 points. Withdrawing will become available after the maturity date. If you want to withdraw before the maturity date you can do so in Pendle's web app.",
-    "tvl": 2553893.223319335
+    "tvl": 2638895.507812631
   },
   {
     "id": 15,
@@ -5443,10 +5443,6 @@
       "value": 0.027000000000000003,
       "history": [
         {
-          "timestamp": 1721844976,
-          "apy": 0.029
-        },
-        {
           "timestamp": 1721931381,
           "apy": 0.029
         },
@@ -5561,6 +5557,10 @@
         {
           "timestamp": 1724761430,
           "apy": 0.027
+        },
+        {
+          "timestamp": 1724847909,
+          "apy": 0.027
         }
       ]
     },
@@ -5570,7 +5570,7 @@
     "risk": 1,
     "contractAddress": "0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84",
     "description": "Lido is the leading Ethereum staking pool. By depositing ETH into Lido, users can earn a variable APY on their ETH. The yield is generated by staking the user's ETH and claiming the native Ethereum staking yield. The yield is automatically accrued in your account.",
-    "tvl": 24200965314.586628,
+    "tvl": 24792745928.98468,
     "unlockDuration": 86400
   }
 ]
