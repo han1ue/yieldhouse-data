@@ -96,10 +96,6 @@
       "maturityTimestamp": 1735214400,
       "history": [
         {
-          "timestamp": 1727481600,
-          "apy": 0.041378764149560654
-        },
-        {
           "timestamp": 1727568000,
           "apy": 0.04125660517167007
         },
@@ -474,14 +470,10 @@
     },
     "protocol": "PENDLEV2",
     "apy": {
-      "value": 0.03204538709128224,
+      "value": 0.03218397164726339,
       "type": "fixed",
       "maturityTimestamp": 1766664000,
       "history": [
-        {
-          "timestamp": 1727481600,
-          "apy": 0.03468360777248214
-        },
         {
           "timestamp": 1727568000,
           "apy": 0.03468360777448498
@@ -844,11 +836,15 @@
         },
         {
           "timestamp": 1735344000,
-          "apy": 0.03204538709128224
+          "apy": 0.03218398422646107
+        },
+        {
+          "timestamp": 1735430400,
+          "apy": 0.03218397164726339
         }
       ]
     },
-    "tvl": 56154032.550989285,
+    "tvl": 55745911.458465844,
     "type": [
       "LST"
     ],
@@ -899,12 +895,8 @@
       "type": "variable",
       "history": [
         {
-          "timestamp": 1727568000,
-          "apy": 0.035859412193822306
-        },
-        {
           "timestamp": 1727654400,
-          "apy": 0.0423739039432732
+          "apy": 0.042638442976847296
         },
         {
           "timestamp": 1727740800,
@@ -1260,7 +1252,11 @@
         },
         {
           "timestamp": 1735344000,
-          "apy": 0.062213324904518585
+          "apy": 0.06218240704097396
+        },
+        {
+          "timestamp": 1735430400,
+          "apy": 0.054918925962780515
         }
       ]
     },
@@ -1290,12 +1286,8 @@
       "type": "variable",
       "history": [
         {
-          "timestamp": 1727568000,
-          "apy": 0.03471278012840416
-        },
-        {
           "timestamp": 1727654400,
-          "apy": 0.035587739054656724
+          "apy": 0.035819820871938274
         },
         {
           "timestamp": 1727740800,
@@ -1651,7 +1643,11 @@
         },
         {
           "timestamp": 1735344000,
-          "apy": 0.06975725098525247
+          "apy": 0.07047161297625122
+        },
+        {
+          "timestamp": 1735430400,
+          "apy": 0.06472315235366856
         }
       ]
     },
@@ -1681,12 +1677,8 @@
       "type": "variable",
       "history": [
         {
-          "timestamp": 1727568000,
-          "apy": 0.02408449473280046
-        },
-        {
           "timestamp": 1727654400,
-          "apy": 0.033995594874475704
+          "apy": 0.034463825027176605
         },
         {
           "timestamp": 1727740800,
@@ -2042,7 +2034,11 @@
         },
         {
           "timestamp": 1735344000,
-          "apy": 0.08186403911474428
+          "apy": 0.08142373253010951
+        },
+        {
+          "timestamp": 1735430400,
+          "apy": 0.08685845865544618
         }
       ]
     },
@@ -2072,12 +2068,8 @@
       "type": "variable",
       "history": [
         {
-          "timestamp": 1727568000,
-          "apy": 0.01842551526165423
-        },
-        {
           "timestamp": 1727654400,
-          "apy": 0.0184717631023191
+          "apy": 0.018789422372049554
         },
         {
           "timestamp": 1727740800,
@@ -2433,7 +2425,11 @@
         },
         {
           "timestamp": 1735344000,
-          "apy": 0.017667202501675174
+          "apy": 0.01755654868642071
+        },
+        {
+          "timestamp": 1735430400,
+          "apy": 0.01857269433867732
         }
       ]
     },
@@ -2462,12 +2458,8 @@
       "type": "variable",
       "history": [
         {
-          "timestamp": 1727568000,
-          "apy": 0.0400460004058475
-        },
-        {
           "timestamp": 1727654400,
-          "apy": 0.04851402303567462
+          "apy": 0.0487990892353568
         },
         {
           "timestamp": 1727740800,
@@ -2823,7 +2815,11 @@
         },
         {
           "timestamp": 1735344000,
-          "apy": 0.09225224737725275
+          "apy": 0.09368411675634748
+        },
+        {
+          "timestamp": 1735430400,
+          "apy": 0.08697315739407303
         }
       ]
     },
@@ -2853,12 +2849,8 @@
       "type": "variable",
       "history": [
         {
-          "timestamp": 1727568000,
-          "apy": 0.031794188153221416
-        },
-        {
           "timestamp": 1727654400,
-          "apy": 0.036014974896374806
+          "apy": 0.03551459429233016
         },
         {
           "timestamp": 1727740800,
@@ -3214,7 +3206,11 @@
         },
         {
           "timestamp": 1735344000,
-          "apy": 0.07345687915133144
+          "apy": 0.07209076471152208
+        },
+        {
+          "timestamp": 1735430400,
+          "apy": 0.06818772153349041
         }
       ]
     },
@@ -3244,12 +3240,8 @@
       "type": "variable",
       "history": [
         {
-          "timestamp": 1727568000,
-          "apy": 0.03740977777084492
-        },
-        {
           "timestamp": 1727654400,
-          "apy": 0.03725045149416828
+          "apy": 0.03861493136325355
         },
         {
           "timestamp": 1727740800,
@@ -3605,7 +3597,11 @@
         },
         {
           "timestamp": 1735344000,
-          "apy": 0.08568511125441355
+          "apy": 0.09172107059051342
+        },
+        {
+          "timestamp": 1735430400,
+          "apy": 0.08314051282821988
         }
       ]
     },
@@ -3634,10 +3630,6 @@
       "value": 0.11500000424901846,
       "type": "variable",
       "history": [
-        {
-          "timestamp": 1726294677,
-          "apy": 0.06
-        },
         {
           "timestamp": 1726402997,
           "apy": 0.06
@@ -3997,6 +3989,10 @@
         {
           "timestamp": 1735347805,
           "apy": 0.115
+        },
+        {
+          "timestamp": 1735434657,
+          "apy": 0.115
         }
       ]
     },
@@ -4006,7 +4002,7 @@
     "risk": 2,
     "contractAddress": "0x373238337Bfe1146fb49989fc222523f83081dDb",
     "description": "DAI is a multi-collateral-backed stablecoin managed by MakerDAO that attempts to maintain a value of $1.00 USD. The DSR is a special module in the MakerDAO smart contract system that allows DAI holders to receive a share of the revenue earned by MakerDAO. The yield is generated by depositing DAI in the DSR and automatically accrued in your account.",
-    "tvl": "892983414.351590265659800292"
+    "tvl": "892792579.505499928159535966"
   },
   {
     "id": 14,
@@ -4076,10 +4072,6 @@
       "type": "variable",
       "value": 0.027000000000000003,
       "history": [
-        {
-          "timestamp": 1732429175,
-          "apy": 0.029
-        },
         {
           "timestamp": 1732515669,
           "apy": 0.03
@@ -4195,6 +4187,10 @@
         {
           "timestamp": 1735347806,
           "apy": 0.028
+        },
+        {
+          "timestamp": 1735434659,
+          "apy": 0.027
         }
       ]
     },
@@ -4204,7 +4200,7 @@
     "risk": 1,
     "contractAddress": "0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84",
     "description": "Lido is the leading Ethereum staking pool. By depositing ETH into Lido, users can earn a variable APY on their ETH. The yield is generated by staking the user's ETH and claiming the native Ethereum staking yield. The yield is automatically accrued in your account.",
-    "tvl": 32716667316.52197,
+    "tvl": 32758699055.165714,
     "unlockDuration": 86400
   }
 ]
