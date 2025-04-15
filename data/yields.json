@@ -10,6 +10,7 @@
       "name": "Arbitrum",
       "chainId": 42161
     },
+    "currency": "USD",
     "protocol": "AAVEV3",
     "apy": {
       "value": "0.06860984049777203642",
@@ -401,6 +402,7 @@
       "name": "Arbitrum",
       "chainId": 42161
     },
+    "currency": "USD",
     "protocol": "AAVEV3",
     "apy": {
       "value": "0.05163443686018933923",
@@ -792,6 +794,7 @@
       "name": "Base",
       "chainId": 8453
     },
+    "currency": "USD",
     "protocol": "AAVEV3",
     "apy": {
       "value": "0.07333919486379628261",
@@ -1183,6 +1186,7 @@
       "name": "Ethereum",
       "chainId": 1
     },
+    "currency": "USD",
     "protocol": "AAVEV3",
     "apy": {
       "value": "0.04965011549965667369",
@@ -1574,6 +1578,7 @@
       "name": "Ethereum",
       "chainId": 1
     },
+    "currency": "USD",
     "protocol": "AAVEV3",
     "apy": {
       "value": "0.04265450568625445495",
@@ -1965,6 +1970,7 @@
       "name": "Arbitrum",
       "chainId": 42161
     },
+    "currency": "USD",
     "protocol": "AAVEV3",
     "apy": {
       "value": "0.11641111633908786299",
