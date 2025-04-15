@@ -11,7 +11,7 @@ import {
 import { mainnet } from "viem/chains";
 
 const RAY = BigInt("1000000000000000000000000000"); // 1e27 as a BigInt
-const MAKER_POT_ADDRESS = "0x197E90f9FAD81970bA7976f33CbD77088E5D7cf7";
+const SKY_POT_ADDRESS = "0x197E90f9FAD81970bA7976f33CbD77088E5D7cf7";
 const SECONDS_PER_YEAR = 31536000;
 const SECONDS_IN_DAY = 86400;
 
@@ -22,7 +22,7 @@ export async function updateYield(yieldData) {
     chain: mainnet,
   });
 
-  // Read the current DAI balance of the Maker Pot
+  // Read the current USDS balance of the Sky Pot
   const dsrResponse = await publicClient.readContract({
     abi: [
       {
@@ -34,7 +34,7 @@ export async function updateYield(yieldData) {
         type: "function",
       },
     ],
-    address: MAKER_POT_ADDRESS,
+    address: SKY_POT_ADDRESS,
     method: "dsr",
     args: [],
   });
@@ -46,7 +46,7 @@ export async function updateYield(yieldData) {
 
   console.log("apy", apy);
 
-  // Read the current DAI balance of the Maker Pot
+  // Read the current USDS balance of the Sky Pot
   const pieResponse = await publicClient.readContract({
     abi: [
       {
@@ -58,7 +58,7 @@ export async function updateYield(yieldData) {
         type: "function",
       },
     ],
-    address: MAKER_POT_ADDRESS,
+    address: SKY_POT_ADDRESS,
     method: "Pie",
     args: [],
   });

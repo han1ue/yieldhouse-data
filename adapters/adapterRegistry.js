@@ -1,5 +1,5 @@
 import * as aavev3Adapter from "./aavev3.js";
-import * as makerAdapter from "./maker.js";
+import * as skyAdapter from "./sky.js";
 
 // Adapter Registry
 // This is a registry of all the adapters that are available in the app.
@@ -9,5 +9,5 @@ import * as makerAdapter from "./maker.js";
 
 export const adapterRegistry = {
   aavev3: aavev3Adapter,
-  maker: makerAdapter,
+  sky: skyAdapter,
 };
