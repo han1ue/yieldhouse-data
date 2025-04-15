@@ -2,8 +2,6 @@
   "timestamp": 1741976347,
   "protocols": [
     "aavev3",
-    "pendlev2",
-    "maker",
-    "lido"
+    "maker"
   ]
 }
