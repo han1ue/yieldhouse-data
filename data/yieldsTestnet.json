@@ -7,6 +7,7 @@
       "decimals": 18
     },
     "chain": {
+      "displayName": "eth-sepolia",
       "name": "Sepolia",
       "chainId": 11155111
     },
@@ -16,7 +17,6 @@
       "type": "variable"
     },
     "tvl": 73000,
-    "type": ["Stables", "Lending"],
     "risk": 2,
     "contractAddress": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
     "description": "Your ETH is deposited in AAVE and used for lending. You earn interest on your ETH. The interest rate is variable and depends on the demand for borrowing ETH."
