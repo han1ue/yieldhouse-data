@@ -14,7 +14,7 @@
     "protocol": "AAVEV3",
     "apy": {
       "value": 0.2113,
-      "type": "variable"
+      "history": []
     },
     "tvl": 73000,
     "risk": 2,
